@@ -1,0 +1,50 @@
+.txtcon2{
+    box-sizing: border-box;
+    padding: 20px;
+} 
+ .align_center{
+    box-sizing: border-box;
+    padding: 20px;
+}
+.btn_text{
+    font-size: 20px;
+    font-weight: 600;
+}
+.part1{
+ max-width: 100%;
+}
+
+.form2{
+  max-width: 100%;
+}
+.t-path1{
+  box-sizing: border-box;
+  padding: 20px;
+}
+.p3{
+    box-sizing: border-box;
+    padding: 20px;
+}
+.six-cen3{
+    box-sizing: border-box;
+    padding: 0 0 0 20px;
+
+}
+.nin-cen2{
+    box-sizing: border-box;
+    padding: 0 10px 0 10px;
+
+}
+.ten-cen1{
+    box-sizing: border-box;
+    padding: 0 20px 0 20px;
+}
+.sixteen-cen{
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+.sixt-cen3{
+    box-sizing: border-box;
+    padding: 0 0 0 20px;
+
+}

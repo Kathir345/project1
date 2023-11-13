@@ -28,13 +28,15 @@
     position: relative;
     float: left;
     width: 100%;
-    padding: 25px 0 40px;
+    padding: 25px 10px 40px ;
+    box-sizing: border-box;
   }
   .box-2 {
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
     position: relative;
+    padding-right: 20px;
   }
   .bot2 {
     margin-bottom: 20px;
@@ -120,37 +122,40 @@
      font-size: 20px;
      color: rgb(255, 255, 255);
   }
-  .m_top {
-    margin-top: 30px;
-  }
   .cont_3{
     float: left;
     width: 100%;
+    margin-top: 30px;
+    padding: 5px 5px;
+    box-sizing: border-box;
   }
   .box_4 {
     width: 90%;
-    margin: 0 auto;
+    margin: 0 20px;
     box-sizing: border-box;
     padding: 0px 4%;
   }
-  .align_center {
+  .align_center21 {
     float: left;
     width: 100%;
     text-align: center;
+    padding: 5px 5px;
+    box-sizing: border-box;
   }
   .buy_btn {
   background-image: linear-gradient(to bottom, yellow 2%,rgb(228, 119, 36) 100%);
+  
 }
 .btn_text {
   border-radius: 4px;
   box-sizing: border-box;
   color: black;
   display: inline-block;
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 50px;
   text-align: center;
-  width: 66%;
+  width: 67%;
   cursor: pointer;
 }
 .box-5 {
@@ -168,8 +173,10 @@
 }
 .text_cen {
   float: left;
-  width: 100%;
+  width: 99%;
   text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
 }
 .text-3 {
   color: blue;
@@ -183,19 +190,16 @@
   width: 100%;
   text-align: center;
   margin-top: 20px;
+  box-sizing: border-box;
+  padding: 10px;
 }
 .txt-box1{
   font-size: 16px;
   color: rgb(37, 8, 8);
 }
-
-
 .txtcon2 {
   float: left;
   width: 100%;
-  margin-top: 30px;
-}
-.m-top{
   margin-top: 30px;
 }
 .form {
@@ -213,7 +217,8 @@
   max-width: 230px;
   width: 100%;
 }
-  .bx{
+.bx
+  {
   float: left;
 }
 .title1 {
@@ -241,6 +246,7 @@
   width: 100%;
   text-align: center;
   margin-top: 5px;
+  margin: 10px;
 }
 .txtbox1{
   font-size: 15px;
@@ -255,6 +261,8 @@ img {
   max-width: 230px;
   width: 100%;
   float: right;
+  box-sizing: border-box;
+  padding-right: 20px;
 }
  .title2{
   background-color: #72c6f3;
@@ -580,7 +588,8 @@ img {
   max-width: 790px;
   width: 100%;
   margin: 0 auto;
-  padding: 40px 0 0 0;
+  box-sizing: border-box;
+  padding: 40px 20px 0 20px;
 }
 .img3 {
   float: left;
@@ -653,8 +662,10 @@ img {
   float: left;
   width: 100%;
   text-align: center;
-  padding-top: 2%;
+  padding-top: 20px;
   margin-top: 30px;
+  box-sizing: border-box;
+  padding: 20px;
 }
 .p2-title {
   color: #1e93cd;
@@ -666,6 +677,8 @@ img {
   width: 100%;
   text-align: center;
   margin-top: 30px;
+  box-sizing: border-box;
+  padding: 20px;
 }
 img {
   border: none;
@@ -688,6 +701,8 @@ img {
   width: 100%;
   text-align: center;
   margin-top: 30px;
+  box-sizing: border-box;
+  padding: 20px;
 }
 .p3-txt{
   font-size: 15px;
@@ -719,6 +734,8 @@ img {
   float: left;
   width: 100%;
   text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
 }
 .fit-tit{
   font-size: 26px;
@@ -729,6 +746,8 @@ img {
   width: 100%;
   text-align: center;
   margin-top: 10px;
+  box-sizing: border-box;
+  padding: 20px;
 }
 .fit-txt{
   font-size: 15px;
@@ -790,7 +809,7 @@ img {
   width: 45%;
   text-align: center;
   margin-top: 30px;
-  padding-left: 20px;
+  padding: 0 37px 0 20px;
 }
 .six-txt1{
   color: white;
@@ -799,7 +818,7 @@ img {
 .six-cen3 {
     margin-top: 30px;
     float: left;
-    width: 50%;
+    width: 52%;
     text-align: center;
     margin-bottom: 20px;
     margin-right: 10px;
@@ -859,6 +878,8 @@ img {
   margin-top: 30px;
   text-align: center;
   text-transform: uppercase;
+  box-sizing: border-box;
+  padding: 0 10px 0 10px;
 }
 .se-txt1{
   font-size: 30px;
@@ -867,6 +888,7 @@ p{
   margin-top: 10px;
   font-size: 16px;
 }
+/*eighth-page*/
 .eighth{
     background-color: #a6c5ce;
     margin-top: 30px 0 0;
@@ -886,6 +908,8 @@ p{
     float: left;
     width: 100%;
     text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
   }
   .ei-tit1{
     color: #0b9ee8;
@@ -898,6 +922,8 @@ p{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 0 10px 0 10px;
   }
   .ei-cen2{
     color: gray;
@@ -988,6 +1014,8 @@ p{
     margin-top: 20px;
     float: left;
     width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px 0 10px;
   }
   .nin-txt2{
     color: white;
@@ -1029,6 +1057,8 @@ p{
     float: left;
     width: 100%;
     margin-top: 30px;
+    box-sizing: border-box;
+    padding: 0 10px 0 10px;
   }
   .ten-img{
     float: right;
@@ -1066,6 +1096,8 @@ p{
     width: 100%;
     margin-top: 30px;
     padding-top: 4%;
+    box-sizing: border-box;
+    padding: 0 10px 0 10px;
   }
 .ten-img2{
     float: left;
@@ -1102,6 +1134,8 @@ ul li {
   float: left;
   width: 100%;
   margin-top: 30px;
+  box-sizing: border-box;
+  padding-left: 10px;
 }
 .ten-txt22{
   font-size: 25px;
@@ -1111,6 +1145,8 @@ ul li {
   float: left;
   width: 100%;
   margin-top: 10px;
+  box-sizing: border-box;
+  padding-left: 10px;
 }  
 .ten-txt33{
   font-size: 16px;
@@ -1120,6 +1156,8 @@ ul li {
   float: left;
   width: 100%;
   margin-top: 25px;
+  box-sizing: border-box;
+  padding: 0 10px 0 10px;
 }
 .ten-cen3{
   float: left;
@@ -1138,6 +1176,8 @@ ul li {
   float: left;
   width: 100%;
   margin-top: 30px;
+  box-sizing: border-box;
+  padding-left: 10px;
 }
 .te-tx2{
   font-size: 30px;
@@ -1147,6 +1187,8 @@ ul li {
   float: left;
   width: 100%;
   margin-top:20px;
+  box-sizing: border-box;
+  padding: 0 10px 0 10px;
 }
 .te-tx3{
   font-size: 20px;
@@ -1180,6 +1222,8 @@ ul li {
   float: left;
   width: 100%;
   margin-top: 30px;
+  box-sizing: border-box;
+  padding-left: 10px;
 }
 .ten-n11{
   font-size: 30px;
@@ -1189,6 +1233,8 @@ ul li {
   float: left;
   width: 100%;
   margin-top: 20px;
+  box-sizing: border-box;
+  padding: 0 10px 0 10px;
 }
 .ten-n22{
   font-size: 20px;
@@ -1198,6 +1244,8 @@ ul li {
   float: left;
   width: 100%;
   margin-top: 20px;
+  box-sizing: border-box;
+  padding: 0 10px 0 10px;
 }
 .ten-cen7{
   float: left;
@@ -1215,6 +1263,8 @@ ul li {
     float: left;
     width: 100%;
     margin-top: 30px;
+    box-sizing: border-box;
+    padding: 0 10px 0 10px;
 }
 .ten-n33{
     font-size: 30px;
@@ -1224,6 +1274,8 @@ ul li {
   float: left;
   width: 100%;
   margin-top: 20px;
+  box-sizing: border-box;
+  padding: 0 10px 0 10px;
 }
 .ten-n44{
   font-size: 20px;
@@ -1233,12 +1285,13 @@ ul li {
   float: left;
   width: 100%;
   margin-top: 20px;
-  border: 2px solid gainsboro;
-  box-sizing: border-box;
   margin-bottom: 40px;
 }
 .ten-li12{
   margin-left: -10px;
+  box-sizing: border-box;
+  padding: 0 10px 0 20px;
+
 }
 .arrow11 {
   z-index: 1;
@@ -1271,6 +1324,8 @@ ul li {
   width: 100%;
   margin-top: 30px;
   text-align: center;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 .ele-title{
   color: white;
@@ -1281,6 +1336,8 @@ ul li {
   float: left;
   width: 100%;
   margin-top: 25px;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 .elev-txt1{
   color:white;
@@ -1292,12 +1349,16 @@ ul li {
   width: 100%;
   margin-top: 15px;
   margin-bottom: 15px;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 .eleven-3{
   float: left;
   width: 100%;
   margin-top: 30px;
   text-align: center;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 .elev-txt2{
   color: white;
@@ -1308,6 +1369,8 @@ ul li {
   float: left;
   width: 100%;
   margin-top: 20px;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 .elev-txt3{
   color: white;
@@ -1351,6 +1414,8 @@ ul li {
   width: 100%;
   margin-top: 30px;
   text-align: center;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 .twelfth-txt11{
   color: black;
@@ -1361,6 +1426,8 @@ ul li {
   float: left;
   width: 100%;
   margin: 20px 0 20px;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 .twelfth-txt22{
   color: black;
@@ -1377,6 +1444,8 @@ ul li {
   max-width: 800px;
   width: 100%;
   margin: auto;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 .twft-1{
   float: left;
@@ -1395,6 +1464,8 @@ ul li {
    float: left;
    width: 100%;
    margin-top: 10px;
+   box-sizing: border-box;
+   padding: 0 10px;
 }
 .twft-txt222{ 
   color: black;
@@ -1405,6 +1476,8 @@ ul li {
   float: left;
   width: 100%;
   margin-top: 20px;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 .twft-33{
   color: black;
@@ -1416,6 +1489,8 @@ ul li {
   width: 100%;
   margin-top: 10px;
   text-align: center;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 .twft-btn2{
   font-size: 30px;
@@ -1457,6 +1532,8 @@ ul li {
   float: left;
   width: 100%;
   margin-bottom: 30px;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 .twft-img12{
   float: right;
@@ -1470,6 +1547,8 @@ ul li {
    float: right;
    width: 100%;
    margin-top: 10px;
+   box-sizing: border-box;
+   padding: 0 10px;
 }
 .twft-txt221{ 
   color: black;
@@ -1480,6 +1559,8 @@ ul li {
   float: right;
   width: 100%;
   margin-top: 20px;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 .twft-31{
   color: black;
@@ -1491,6 +1572,8 @@ ul li {
   width: 100%;
   margin-top: 10px;
   text-align: center;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 .twft-btn21{
   font-size: 30px;
@@ -1535,6 +1618,8 @@ ul li {
 }
 .twft-img13{
   float: left;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 .twft-239{
     max-width: 500px;
@@ -1545,6 +1630,8 @@ ul li {
    float: left;
    width: 100%;
    margin-top: 10px;
+   box-sizing: border-box;
+   padding: 0 10px;
 }
 .twft-txt223{ 
   color: black;
@@ -1555,6 +1642,8 @@ ul li {
   float: left;
   width: 100%;
   margin-top: 20px;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 .twft-333{
   color: black;
@@ -1566,6 +1655,8 @@ ul li {
   width: 100%;
   margin-top: 10px;
   text-align: center;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 .twft-btn23{
   font-size: 30px;
@@ -1597,6 +1688,8 @@ ul li {
   float: right;
   width: 100%;
   margin-top: 20px;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 .twelfth-pag66{
   max-width: 800px;
@@ -1685,6 +1778,8 @@ ul li {
   width: 100%;
   margin-top: 30px;
   text-align: center;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 .thirt-txt1{
   color: white;
@@ -1849,6 +1944,8 @@ ul li {
   float: left;
   width: 100%;
   margin-top: 20px;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 .foteen-title{
   color: #0b42e8;
@@ -1859,6 +1956,8 @@ ul li {
   float: left;
   width: 100%;
   margin-top: 20px;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 .fourteenth-txt1{
   color: #3239a0;
@@ -1870,12 +1969,16 @@ ul li {
   width: 100%;
   margin-top: 20px;
   text-align: center;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 .fourteenth-text3{
   float: left;
   width: 100%;
   margin-top: 20px;
   text-align: center;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 .fourteenth-txt5{
   color: #0b42e8;
@@ -1942,7 +2045,7 @@ ul li {
   width: 45%;
   text-align: center;
   margin-top: 30px;
-  padding-left: 20px;
+  padding: 0 37px 0 20px;
 }
 .sixt-txt1{
   color: white;
@@ -1951,7 +2054,7 @@ ul li {
 .sixt-cen3 {
     margin-top: 30px;
     float: left;
-    width: 50%;
+    width: 52%;
     text-align: center;
     margin-bottom: 20px;
     margin-right: 10px;
@@ -1997,4 +2100,8 @@ ul li {
   font-size: 30px;
   font-weight: 400;
   color: black;
+}
+.final-page2{
+  box-sizing: border-box;
+  padding: 0 10px;
 }
