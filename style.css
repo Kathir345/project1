@@ -113,10 +113,15 @@
     color: #f9eb2a;
     text-shadow: 0 1px 1px #000;
   }
-  .align_center {
+  .align_center37{
     float: left;
     width: 100%;
     text-align: center;
+  }
+  .time_box1{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
   }
   .box_c{
      font-size: 20px;
@@ -633,7 +638,8 @@ img {
 .pa-pag2 {
   max-width: 180px;
   width: 100%;
-  float: right
+  float: right;
+  
 }
 .align_center{
   float: left;
@@ -818,7 +824,7 @@ img {
 .six-cen3 {
     margin-top: 30px;
     float: left;
-    width: 52%;
+    width: 100%;
     text-align: center;
     margin-bottom: 20px;
     margin-right: 10px;
@@ -1069,9 +1075,7 @@ p{
   .ten-pag3{
     max-width: 340px;
     width: 100%;
-    margin: 20px 55px 0;
     margin-top: 20px;
-    float: left;
   }
   .ten-let1{
     margin: 0;
@@ -1108,9 +1112,9 @@ p{
 .ten-pag5{
   max-width: 340px;
   width: 100%;
-  margin: 20px 55px 0;
-  margin-top: 20px;
   float: right;
+  box-sizing: border-box;
+  padding: 20px 20px;
 }
 .ten-let2{
   margin: 0;
@@ -1381,8 +1385,9 @@ ul li {
   float: left;
   width: 100%;
   margin-top: 30px;
-  padding-top: 20px;
+  padding: 20px 10px;
   text-align: center;
+  box-sizing: border-box;
 }
 .arrow23{
   z-index: 1;
@@ -1792,12 +1797,16 @@ ul li {
   width: 100%;
   text-align: center;
   margin-bottom: 30px;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 .thirt-pag1{
   max-width: 300px;
   width: 100%;
   margin: 0 8px;
   display: inline-block;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 .thirt-pag2{
   float: left;
@@ -1845,6 +1854,8 @@ ul li {
   width: 100%;
   margin: 0 8px;
   display: inline-block;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 .thirt-pag22{
   float: left;
@@ -1887,7 +1898,8 @@ ul li {
   width: 100%;
   margin: 0 8px;
   display: inline-block;
-}
+  box-sizing: border-box;
+  padding: 0 10px;}
 .thirt-pag25{
   float: left;
   width: 100%;
@@ -2054,7 +2066,7 @@ ul li {
 .sixt-cen3 {
     margin-top: 30px;
     float: left;
-    width: 52%;
+    width: 90%;
     text-align: center;
     margin-bottom: 20px;
     margin-right: 10px;
