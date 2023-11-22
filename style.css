@@ -87,10 +87,11 @@
     float: left;
     margin-top: 30px;
   }
-  .align_center {
+  .align_center44 {
     float: left;
     width: 100%;
     text-align: center;
+    padding-top: 70px;
   }
   .box_s {
     color: #f3f3f0;
@@ -468,7 +469,7 @@ img {
   width: 100%;
   margin-top: 10px;
 }
-.align_center {
+.align_centerR1 {
   float: left;
   width: 100%;
   text-align: center;
@@ -723,6 +724,19 @@ img {
   font-size: 14px;
   margin: 0 0 15px;
 }
+.arrowf3{
+  z-index: 1;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-top: solid 30px rgb(254, 253, 253);
+  border-left: solid 30px transparent;
+  border-right: solid 30px transparent;
+  margin-left: -30px;
+}
+/*fifth page*/
 .fifth{
   padding: 60px 0 95px;
   background-color:rgb(123, 194, 218);
@@ -770,14 +784,16 @@ img {
   text-align: center;
   margin-top: 10px;
 }
-.arrow {
+.arrowf5{
   z-index: 1;
   position: absolute;
   top: 100%;
   left: 50%;
   width: 0;
   height: 0;
-  border-top: solid 30px rgb(129, 197, 224);
+  border-top: solid 30px rgb(123,194, 218);
+  border-left: solid 30px transparent;
+  border-right: solid 30px transparent;
   margin-left: -30px;
 }
 /*sixth page*/
@@ -824,7 +840,7 @@ img {
 .six-cen3 {
     margin-top: 30px;
     float: left;
-    width: 100%;
+    width: 49%;
     text-align: center;
     margin-bottom: 20px;
     margin-right: 10px;
@@ -1027,7 +1043,7 @@ p{
     color: white;
     font-size: 15px;
   }
-  .arrow3 {
+  .arrowf32{
     z-index: 1;
     position: absolute;
     top: 100%;
@@ -1035,6 +1051,8 @@ p{
     width: 0;
     height: 0;
     border-top: solid 30px black;
+    border-left: solid 30px transparent;
+    border-right: solid 30px transparent;
     margin-left: -30px;
   }
   .tenth {
@@ -1297,18 +1315,18 @@ ul li {
   padding: 0 10px 0 20px;
 
 }
-.arrow11 {
-  z-index: 1;
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  width: 0;
-  height: 0;
-  border-top: solid 30px #FFF;
-  border-left: solid 30px transparent;
-  border-right: solid 30px transparent;
-  margin-left: -30px;
-}
+.arrowf11 {
+    z-index: 1;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-top: solid 30px rgb(248, 246, 246);
+    border-left: solid 30px transparent;
+    border-right: solid 30px transparent;
+    margin-left: -30px;
+  }
 /*eleventh page*/
 .eleventh {
   padding: 75px 0 80px;
@@ -1401,6 +1419,7 @@ ul li {
   border-right: solid 30px transparent;
   margin-left: -30px;
 }
+/*twelfth page*/
 .twelfth{
   background-color:rgb(184, 213, 184);
   float: left;
@@ -1444,13 +1463,13 @@ ul li {
   float: left;
   width: 100%;
   margin-top: 20px;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 .twelfth-pag2{
   max-width: 800px;
   width: 100%;
   margin: auto;
-  box-sizing: border-box;
-  padding: 0 10px;
 }
 .twft-1{
   float: left;
@@ -1469,8 +1488,6 @@ ul li {
    float: left;
    width: 100%;
    margin-top: 10px;
-   box-sizing: border-box;
-   padding: 0 10px;
 }
 .twft-txt222{ 
   color: black;
@@ -1481,8 +1498,7 @@ ul li {
   float: left;
   width: 100%;
   margin-top: 20px;
-  box-sizing: border-box;
-  padding: 0 10px;
+
 }
 .twft-33{
   color: black;
@@ -1494,8 +1510,6 @@ ul li {
   width: 100%;
   margin-top: 10px;
   text-align: center;
-  box-sizing: border-box;
-  padding: 0 10px;
 }
 .twft-btn2{
   font-size: 30px;
@@ -1527,6 +1541,8 @@ ul li {
   float: right;
   width: 100%;
   margin-top: 20px;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 .twelfth-pag33{
   max-width: 800px;
@@ -1537,8 +1553,6 @@ ul li {
   float: left;
   width: 100%;
   margin-bottom: 30px;
-  box-sizing: border-box;
-  padding: 0 10px;
 }
 .twft-img12{
   float: right;
@@ -1552,8 +1566,7 @@ ul li {
    float: right;
    width: 100%;
    margin-top: 10px;
-   box-sizing: border-box;
-   padding: 0 10px;
+
 }
 .twft-txt221{ 
   color: black;
@@ -1564,8 +1577,7 @@ ul li {
   float: right;
   width: 100%;
   margin-top: 20px;
-  box-sizing: border-box;
-  padding: 0 10px;
+  
 }
 .twft-31{
   color: black;
@@ -1577,8 +1589,6 @@ ul li {
   width: 100%;
   margin-top: 10px;
   text-align: center;
-  box-sizing: border-box;
-  padding: 0 10px;
 }
 .twft-btn21{
   font-size: 30px;
@@ -1610,6 +1620,8 @@ ul li {
   float: left;
   width: 100%;
   margin-top: 20px;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 .twelfth-pag44{
   max-width: 800px;
@@ -1623,8 +1635,6 @@ ul li {
 }
 .twft-img13{
   float: left;
-  box-sizing: border-box;
-  padding: 0 10px;
 }
 .twft-239{
     max-width: 500px;
@@ -1635,8 +1645,6 @@ ul li {
    float: left;
    width: 100%;
    margin-top: 10px;
-   box-sizing: border-box;
-   padding: 0 10px;
 }
 .twft-txt223{ 
   color: black;
@@ -1647,8 +1655,6 @@ ul li {
   float: left;
   width: 100%;
   margin-top: 20px;
-  box-sizing: border-box;
-  padding: 0 10px;
 }
 .twft-333{
   color: black;
@@ -1660,8 +1666,6 @@ ul li {
   width: 100%;
   margin-top: 10px;
   text-align: center;
-  box-sizing: border-box;
-  padding: 0 10px;
 }
 .twft-btn23{
   font-size: 30px;
@@ -2066,7 +2070,7 @@ ul li {
 .sixt-cen3 {
     margin-top: 30px;
     float: left;
-    width: 90%;
+    width: 49%;
     text-align: center;
     margin-bottom: 20px;
     margin-right: 10px;
@@ -2101,7 +2105,7 @@ ul li {
   float: left;
   padding: 20px 0 30px;
   width: 100%;
-
+  margin-bottom: 20px;
 }
 .final-page2{
   max-width: 900px;
